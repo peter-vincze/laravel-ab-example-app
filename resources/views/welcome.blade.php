@@ -12,7 +12,7 @@
     <body class="antialiased">
         <div>
             <a href="/buy">
-            <button class="buy_button_green">Buy</button>
+            <button class="buy_button_red">Buy</button>
             </a>
         </div>
     </body>
