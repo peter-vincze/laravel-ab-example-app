@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5af933e90ac90cce97d03a02f302bbb9",
+    "content-hash": "97f0458b6d910f5eff783b4db0169c2c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1747,7 +1747,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-ab",
+                "url": "/home/peetoer/laravel-ab",
                 "reference": "a5f118dcccdc308032446d2fcb48e22839b3a80e"
             },
             "require": {
@@ -1810,7 +1810,7 @@
                 "php"
             ],
             "transport-options": {
-                "relative": true
+                "relative": false
             }
         },
         {
