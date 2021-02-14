@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a16c3c541bd99241cab1c21ce8e83ac",
+    "content-hash": "5af933e90ac90cce97d03a02f302bbb9",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -893,6 +893,58 @@
             "time": "2020-09-30T07:37:11+00:00"
         },
         {
+            "name": "jaybizzle/crawler-detect",
+            "version": "v1.2.104",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JayBizzle/Crawler-Detect.git",
+                "reference": "a581e89a9212c4e9d18049666dc735718c29de9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/a581e89a9212c4e9d18049666dc735718c29de9c",
+                "reference": "a581e89a9212c4e9d18049666dc735718c29de9c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8|^5.5|^6.5|^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jaybizzle\\CrawlerDetect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Beech",
+                    "email": "m@rkbee.ch",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent",
+            "homepage": "https://github.com/JayBizzle/Crawler-Detect/",
+            "keywords": [
+                "crawler",
+                "crawler detect",
+                "crawler detector",
+                "crawlerdetect",
+                "php crawler detect"
+            ],
+            "support": {
+                "issues": "https://github.com/JayBizzle/Crawler-Detect/issues",
+                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.2.104"
+            },
+            "time": "2021-01-13T15:25:20+00:00"
+        },
+        {
             "name": "laravel/framework",
             "version": "v8.27.0",
             "source": {
@@ -1689,6 +1741,77 @@
                 "source": "https://github.com/opis/closure/tree/3.6.1"
             },
             "time": "2020-11-07T02:01:34+00:00"
+        },
+        {
+            "name": "peter-vincze/laravel-ab",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../laravel-ab",
+                "reference": "a5f118dcccdc308032446d2fcb48e22839b3a80e"
+            },
+            "require": {
+                "illuminate/support": ">=7.0",
+                "jaybizzle/crawler-detect": "^1.2",
+                "php": "^7.4 | ^8.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "orchestra/testbench": "^6.9",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "PeterVincze\\AbTesting\\AbTestingServiceProvider"
+                    ],
+                    "aliases": {
+                        "PeterVincze": "PeterVincze\\AbTesting\\AbTestingFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PeterVincze\\AbTesting\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "PeterVincze\\AbTesting\\Tests\\": "tests"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "vendor/bin/phpunit"
+                ],
+                "test-coverage": [
+                    "vendor/bin/phpunit --coverage-html coverage"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Peter",
+                    "email": "vinczepetertamas@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel A/B experiment testing tool normal and revisioned way",
+            "homepage": "https://github.com/peter-vincze/laravel-ab",
+            "keywords": [
+                "ab-testing",
+                "laravel",
+                "laravel-8-package",
+                "laravel-package",
+                "peter-vincze",
+                "php"
+            ],
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "phpoption/phpoption",
