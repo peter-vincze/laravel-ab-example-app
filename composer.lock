@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "97f0458b6d910f5eff783b4db0169c2c",
+    "content-hash": "969cbe2ff1bd17a48b833c52b375c28a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1745,10 +1745,16 @@
         {
             "name": "peter-vincze/laravel-ab",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/peter-vincze/laravel-ab.git",
+                "reference": "038f1f7b93292a2b622939889926513d66422547"
+            },
             "dist": {
-                "type": "path",
-                "url": "/home/peetoer/laravel-ab",
-                "reference": "a5f118dcccdc308032446d2fcb48e22839b3a80e"
+                "type": "zip",
+                "url": "https://api.github.com/repos/peter-vincze/laravel-ab/zipball/038f1f7b93292a2b622939889926513d66422547",
+                "reference": "038f1f7b93292a2b622939889926513d66422547",
+                "shasum": ""
             },
             "require": {
                 "illuminate/support": ">=7.0",
@@ -1760,6 +1766,7 @@
                 "orchestra/testbench": "^6.9",
                 "phpunit/phpunit": "^9.5"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1776,19 +1783,7 @@
                     "PeterVincze\\AbTesting\\": "src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "PeterVincze\\AbTesting\\Tests\\": "tests"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "vendor/bin/phpunit"
-                ],
-                "test-coverage": [
-                    "vendor/bin/phpunit --coverage-html coverage"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1809,9 +1804,10 @@
                 "peter-vincze",
                 "php"
             ],
-            "transport-options": {
-                "relative": false
-            }
+            "support": {
+                "source": "https://github.com/peter-vincze/laravel-ab/tree/master"
+            },
+            "time": "2021-02-04T10:50:29+00:00"
         },
         {
             "name": "phpoption/phpoption",
